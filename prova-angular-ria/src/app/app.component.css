@@ -1,0 +1,17 @@
+.minha-tabela {
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.minha-tabela th,
+.minha-tabela td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.minha-tabela th {
+    background-color: #f2f2f2;    
+}

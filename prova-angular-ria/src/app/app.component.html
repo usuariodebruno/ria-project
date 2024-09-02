@@ -1,0 +1,28 @@
+<html>
+<h1>Prova Angular - RIA</h1>
+<h4>Bruno Almeida Gonçalves</h4>
+
+<hr>
+
+<h3>Informe uma nome a ser inserido na lista </h3>
+<input type="text" [(ngModel)]="valorParaAdicionar" placeholder="Digite um nome"> <br><br>
+<button (click)="adicionarValorALista()">Inserir nome na lista</button>
+
+<table class="minha-tabela">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of lista; let i = index"
+    [ngStyle]="{'background': hoverIndex === i ? '#dcdcdc' : 'white'}"
+    (mouseenter)="quandoMouseEnter(i)"
+    (mouseleave)="quandoMouseLeave()">
+      <td>{{ i + 1 }}</td>
+      <td>{{ item }}</td>
+    </tr>
+  </tbody>
+</table>
+</html>

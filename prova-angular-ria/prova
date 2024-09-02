@@ -1,0 +1,11 @@
+Construa o código para atender as questões abaixo:
+
+Q1 - Crie um projeto angular. (2 pontos)
+
+Q2 -  Adicione ao template do componente  um campo de entrada de dados (<input>), um botão e uma tabela que possa receber uma lista de string dinâmica vindo da classe do componente.  (3 pontos).
+
+Q3 - Adicione uma funcionalidade ao botão do template de forma que ao ser acionado permita inserir em um array da classe do componente e consequentemente na tabela do template, a informação digitada no campo de entrada. (5 pontos)
+
+Q4 - Crie uma diretiva que permite alterar a cor da linha da tabela ao passar o mouse em cima (10 pontos).
+
+ATENSÃO: Anexar código da tarefa do SGA sem a pasta node_module.
