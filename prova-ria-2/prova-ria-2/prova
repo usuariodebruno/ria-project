@@ -1,0 +1,18 @@
+Implemente um projeto em Angular para atender os requisitos abaixo:
+
+
+Q1 - Realize o cadastro de um estudante com matricula, nome, e-mail. (2 pontos)
+
+Q2 - Todos os campos do formulário do estudante são obrigatório e o e-mail deve está em formato válido.(5 pontos)
+
+Q3 - Realize o cadastro de posts para o estudante cadastrado. Cada post deve ter  id, título, descrição e data/hora da postagem. (5 pontos)
+
+Q4-  Liste todas as postagens do usuário cadastrado de forma que a data-hora da postagem apareça no formato abaixo.  (5 pontos) 
+dd/MM/aaaa hh:mm:ss
+
+Q5 - Crie a funcionalidade de Excluir Postagem a partir da listagem implementada na questão 4. (3 pontos)
+
+Use os endpoints da API REST FULL existente no link https://3.128.249.166:3000/ como backend.
+
+
+ATENÇÃO: Anexar código da tarefa do SGA sem a pasta node_module.
